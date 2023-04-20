@@ -1,0 +1,299 @@
+﻿.container-perfil {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background: #F3F2F2
+}
+
+.Image-profile {
+    display: flex;
+    margin: 20px auto;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.Informacion-Perfil {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding-top: 60px
+}
+
+    .Informacion-Perfil .perfil-usuario {
+        background: #fff;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px;
+    }
+.Informacion-Perfil .perfil-usuario .Informacion-Perfil-Usuario {
+    justify-content: left;
+    flex-direction: column;
+    display: flex;
+}
+
+.Informacion-Perfil .perfil-usuario .Busco-Para {
+    justify-content: left;
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 40px
+}
+.Informacion-Perfil .perfil-usuario .Busco-Para .busco {
+   background-color: honeydew;
+   width: 260px;
+   border-radius: 8px;
+   align-items: center;
+   display: flex;
+   padding: 10px 15px;
+
+}
+
+    .Informacion-Perfil .perfil-usuario .Busco-Para .busco .busco-emoji {
+        font-size: 40px
+    }
+    .Informacion-Perfil .perfil-usuario .Busco-Para .busco .busco-container {
+        margin-left: 10px;
+    }
+    .Informacion-Perfil .perfil-usuario .Busco-Para .busco .busco-b {
+        font-size: 18px;
+        display: block
+    }
+    .Informacion-Perfil .perfil-usuario .Busco-Para .busco .busco-eleccion {
+        font-size: 20px;
+        font-weight: 600
+    }
+.Informacion-Perfil .perfil-usuario .Descripcion-perfil {
+    justify-content: left;
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 40px
+}
+.Informacion-Perfil .perfil-usuario .Descripcion-perfil .acerca-de{
+    font-weight:600; font-size:23px
+}
+
+.Informacion-Perfil .perfil-usuario .Descripcion-perfil .txt-descripcion{
+    max-width: 100%; min-width: 100%; min-height: 150px; max-height: 150px; outline: none;
+}
+
+.Informacion-Perfil .perfil-usuario .Sobre-mi {
+    justify-content: left; flex-direction: column; display: flex; padding-bottom: 40px
+}
+
+.Informacion-Perfil .perfil-usuario .Sobre-mi .sobre-mi-article{
+    display:flex; flex-direction:column
+}
+
+.Informacion-Perfil .perfil-usuario .Sobre-mi .sobre-mi-article .sobre-mi-contenedor{
+    display: flex; align-items:center; gap: 10px; padding-bottom:10px
+}
+
+.Informacion-Perfil .perfil-usuario .Sobre-mi .sobre-mi-article .sobre-mi-contenedor .sobre-mi-opciones{
+    padding: 6px 10px; border: 1px solid #666; border-radius: 15px; white-space: nowrap
+}
+
+
+.Informacion-Perfil .perfil-usuario .Sobre-mi .informacion-personal-usuario .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.Informacion-Perfil .perfil-usuario .Sobre-mi .input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.Informacion-Perfil .perfil-usuario .Sobre-mi .informacion-personal-usuario .input-box input,
+.Informacion-Perfil .perfil-usuario .Sobre-mi .informacion-personal-usuario .input-box select {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.Informacion-Perfil .perfil-usuario .Sobre-mi .informacion-personal-usuario .input-box input:focus,
+.Informacion-Perfil .perfil-usuario .Sobre-mi .informacion-personal-usuario .input-box input:valid {
+        border-color: #B70839;
+    }
+
+.Informacion-Perfil .perfil-usuario .Estilo-vida{
+    justify-content: left; flex-direction: column; display: flex; padding-bottom: 40px
+}
+.Informacion-Perfil .perfil-usuario .Estilo-vida .estilo-vida-titulo{
+    font-weight:600; font-size:23px
+}
+.Informacion-Perfil .perfil-usuario .Estilo-vida .estilo-vida-contenedor{
+    display: flex; align-items:center; gap: 10px; padding-bottom:10px
+}
+
+.Informacion-Perfil .perfil-usuario .Estilo-vida .estilo-vida-contenedor .estilo-vida-opciones{
+    padding: 6px 10px; border: 1px solid #666; border-radius: 15px; white-space: nowrap
+}
+.Informacion-Perfil .perfil-usuario .Estilo-vida .informacion-personal-usuario .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.Informacion-Perfil .perfil-usuario .Estilo-vida .informacion-personal-usuario .input-box input,
+.Informacion-Perfil .perfil-usuario .Estilo-vida .informacion-personal-usuario .input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.Informacion-Perfil .perfil-usuario .Intereses{
+    justify-content: left; flex-direction: column; display: flex; padding-bottom: 40px
+}
+
+.Informacion-Perfil .perfil-usuario .Intereses .Intereses-titulo{
+    font-weight:600; font-size:23px
+}
+.Informacion-Perfil .perfil-usuario .Intereses .intereses-contenedor{
+    display: flex; align-items:center; gap: 10px; padding-bottom:10px
+}
+
+.Informacion-Perfil .perfil-usuario .Intereses .intereses-contenedor .intereses-opciones{
+    padding: 6px 10px; border: 1px solid #666; border-radius: 15px; white-space: nowrap
+}
+.Informacion-Perfil .perfil-usuario .Intereses .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.Informacion-Perfil .perfil-usuario .Intereses .input-box input,
+.Informacion-Perfil .perfil-usuario .Intereses .input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.Informacion-Perfil .perfil-usuario  .Que-Busco{
+    justify-content: left; flex-direction: column; display: flex; padding-bottom: 40px
+}
+.Informacion-Perfil .perfil-usuario  .Que-Busco .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;}
+.Informacion-Perfil .perfil-usuario  .Que-Busco .input-box input,
+.Informacion-Perfil .perfil-usuario  .Que-Busco .input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;}
+
+.Informacion-Perfil .perfil-usuario  .genero{
+    justify-content: left; flex-direction: column; display: flex; padding-bottom: 40px
+}
+
+.Informacion-Perfil .perfil-usuario  .genero .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;}
+
+.Informacion-Perfil .perfil-usuario  .genero .input-box input,
+.Informacion-Perfil .perfil-usuario  .genero .input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.Informacion-Perfil .perfil-usuario .orientacion-sexual, 
+.Informacion-Perfil .perfil-usuario .VivoEn{
+    justify-content: left; flex-direction: column; display: flex; padding-bottom: 40px
+}
+.Informacion-Perfil .perfil-usuario .orientacion-sexual .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.Informacion-Perfil .perfil-usuario .orientacion-sexual .input-box input,
+.Informacion-Perfil .perfil-usuario .orientacion-sexual .input-box select
+{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.Informacion-Perfil .perfil-usuario .VivoEn .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.Informacion-Perfil .perfil-usuario .VivoEn .input-box input,
+.Informacion-Perfil .perfil-usuario .VivoEn .input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+
+.Informacion-Perfil .perfil-usuario button,
+.Informacion-Perfil .perfil-usuario input[type=submit] {
+    display: inline-block;
+    width: 150px; text-align: center;
+    margin-top: 5px;
+    color: #B70839;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #B70839 ;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 0 #B70839;
+    transition: .6s;
+}
+
+.Informacion-Perfil .perfil-usuario button:hover,
+.Informacion-Perfil .perfil-usuario input[type=submit]:hover {
+        color: #ffffff;
+        box-shadow: inset 550px 0 0 0 #B70839;
+    }
+
+    .main-footer {
+        display: flex;
+        justify-content: space-between;
+        background: #B70839;
+    }
