@@ -32,7 +32,7 @@ namespace Trustin.Usuario
             }
             else
             {
-                Response.Redirect("/Trustin_3F/InicioSesion.aspx");
+                Response.Redirect("/Trustin_3Final/Inicio/InicioSesion.aspx");
             }
 
 
@@ -122,7 +122,7 @@ namespace Trustin.Usuario
             }
 
             // Redirect to the login page
-            Response.Redirect("/Trustin_3F/Inicio/InicioSesion.aspx");
+            Response.Redirect("/Trustin_3Final/Inicio/InicioSesion.aspx");
         }
 
         //protected void btnNomegusta_Click(object sender, EventArgs e) {
@@ -156,7 +156,7 @@ namespace Trustin.Usuario
         protected void BtnMegusta_Click(object sender, EventArgs e)
         {
             UpdatePanel1.Update();
-            Response.Redirect("cliquearMegusta.aspx");
+            Response.Redirect("/Trustin_3Final/Usuario/cliquearMegusta.aspx");
             string nombre = lblNombre.Text;
             string idFoto = img.ImageUrl;
             int idTipoHistorial = 1;
@@ -183,7 +183,7 @@ namespace Trustin.Usuario
         protected void BtnNomegusta_Click(object sender, EventArgs e)
         {
             UpdatePanel1.Update();
-            Response.Redirect("cliquearMegusta.aspx");
+            Response.Redirect("/Trustin_3Final/Usuario/cliquearMegusta.aspx");
             string nombre = lblNombre.Text;
             string idFoto = img.ImageUrl;
             int idTipoHistorial = 2;

@@ -4,17 +4,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
    <title>Verificación de Token</title>
-     <link rel="stylesheet" href="../Style/Inicio.css"/>
-    <link rel="icon" type="image/png" href="../ContentNathalia/images/LOGO-COLOR.png" />
+     <link rel="stylesheet" href="/Trustin_3Final/Style/Inicio.css"/>
+    <link rel="icon" type="image/png" href="/Trustin_3Final/ContentNathalia/images/LOGO-COLOR.png" />
 </head>
 <body >
     <nav class="main-nav">
        <ul id="main-menu" class="main-menu">
             <li class="main-menu_item">
-                <a href="Inicio.aspx" class="main-menu-link">
-                    <img src="../Imagenes/logoBlanco.png"/ style="height:60px; width:80px; padding:3px; padding-left:10px">
+                <a href="/Trustin_3Final/Inicio/Inicio.aspx" class="main-menu-link">
+                    <img src="/Trustin_3Final/Imagenes/logoBlanco.png"/ style="height:60px; width:80px; padding:3px; padding-left:10px">
                 </a>
             </li>
            </ul>
@@ -30,10 +30,10 @@
         <ul id="main-menu" class="main-menu">
             
             <li class="main-menu_item">
-                <a href="InicioSesion.aspx" class="main-menu-link">Conéctate</a>
+                <a href="/Trustin_3Final/Inicio/InicioSesion.aspx" class="main-menu-link">Conéctate</a>
             </li>
             <li class="main-menu-item">
-                <a href="Registro.aspx" class="main-menu-link">Registrarse</a>
+                <a href="/Trustin_3Final/Inicio/Registro.aspx" class="main-menu-link">Registrarse</a>
             </li>
         </ul>
     </nav>
@@ -71,7 +71,7 @@
                             <br />
                             TrustIn APSW 1C2023
                         </h4>
-                        <img src="../Imagenes/CUC-logo-blanco.png" alt="Imagen perfil" style="height:60px ; align-content:center; align-items:center; justify-content:center"/>
+                        <img src="/Trustin_3Final/Imagenes/CUC-logo-blanco.png" alt="Imagen perfil" style="height:60px ; align-content:center; align-items:center; justify-content:center"/>
                         
                     </div>
                 <div <%--class="footer-right"--%> style="width:auto; margin:20px; padding: 20px;  display:flex; align-items: center; flex-direction:column">

@@ -12,7 +12,7 @@
 </head>
 
 
-<body style="background-image: url(/Trustin_3F/ContentNathalia/images/luxa.org-opacity-changed-LOGO-COLOR.png); background-size: 50%; background-repeat: no-repeat; background-position: center; margin: 0; height: 100vh;">
+<body style="background-image: url(/Trustin_3Final/ContentNathalia/images/luxa.org-opacity-changed-LOGO-COLOR.png); background-size: 50%; background-repeat: no-repeat; background-position: center; margin: 0; height: 100vh;">
 
     <form class="container text-center" runat="server" style="width: auto; height: auto; background-color: none; border: none; margin-top: 80px; margin-bottom: 10px; padding: 5px; border-radius: 5px; display: grid; justify-content: center; align-items: center;">
         <h3 id="modulo" style="color: #8C2641; font-size: 60px; text-align: center"><b>TRUSTIN en mantenimiento</b></h3>

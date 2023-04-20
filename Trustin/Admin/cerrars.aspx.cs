@@ -13,7 +13,7 @@ namespace Trustin.Admin
         {
             Session.Remove("usuariologueado");
             HttpContext.Current.ApplicationInstance.CompleteRequest();
-            HttpContext.Current.Response.Redirect("/Trustin_3F/Inicio/InicioSesion.aspx", false);
+            HttpContext.Current.Response.Redirect("/Trustin_3Final/Inicio/InicioSesion.aspx", false);
         }
     }
 }

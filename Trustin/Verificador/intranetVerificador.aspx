@@ -9,26 +9,26 @@
       <title>TrustIn</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"/>
 
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/fonts/icomoon/style.css"/>
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/fonts/icomoon/style.css"/>
 
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/owl.carousel.min.css"/>
       
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/bootstrap.min.css"/>
    
     <!-- Style -->
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/css/style.css"/>
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/style.css"/>
 
-      <link rel="icon" type="image/png" href="/Trustin_3F/ContentNathalia/images/LOGO-COLOR.png" />
+      <link rel="icon" type="image/png" href="/Trustin_3Final/ContentNathalia/images/LOGO-COLOR.png" />
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <script src="https://kit.fontawesome.com/ba9ac94804.js" crossorigin="anonymous"></script>
 
 
-    <link rel="stylesheet" href="/Trustin_3F/Style/Verificador.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/Style/Verificador.css" />
     <script src="https://kit.fontawesome.com/38eefa0f78.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 

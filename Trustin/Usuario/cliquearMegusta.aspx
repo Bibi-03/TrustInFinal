@@ -19,19 +19,19 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 
-    <link href="/Trustin_3F/Style/Usuario.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/Style/Usuario.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../ContentNathalia/css/bootstrap.min.css" />
     <%-- <link href="../ContentNathalia/css/card.css" rel="stylesheet" />--%>
     <!-- Style -->
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/css/style.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap"
         rel="stylesheet" />
-    <link href="/Trustin_3F/ContentNathalia/css/tinderCard.css" rel="stylesheet" />
-    <link href="/Trustin_3F/Style/styleT.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/ContentNathalia/css/tinderCard.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/Style/styleT.css" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
@@ -51,7 +51,7 @@
     <input type="checkbox" id="menu-toggle" />
     <div class="sidebar">
         <div class="side-header">
-            <a href="/Trustin_3F/Usuario/cliquearMegusta.aspx" style="color: white; font-size: 24px">T<span>rustin</span></a>
+            <a href="/Trustin_3Final/Usuario/cliquearMegusta.aspx" style="color: white; font-size: 24px">T<span>rustin</span></a>
         </div>
         <div class="side-content">
             <div class="profile">
@@ -65,13 +65,13 @@
             <div class="side-menu">
                 <ul>
                     <li>
-                        <a href="/Trustin_3F/Usuario/Usuario_Dashboard.aspx">
+                        <a href="/Trustin_3Final/Usuario/Usuario_Dashboard.aspx">
                             <span class="las la-home"></span>
                             <small>Dashboard</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/Usuario_Cuenta.aspx">
+                        <a href="/Trustin_3Final/Usuario/Usuario_Cuenta.aspx">
                             <span class="las la-user-cog"></span>
                             <small>Cuenta</small>
                         </a>
@@ -83,25 +83,25 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/Geolocalizacion.aspx">
+                        <a href="/Trustin_3Final/Usuario/Geolocalizacion.aspx">
                             <span class="fa-solid fa-location-dot"></span>
                             <small>Geolocalización</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/pruebaspersonalidad.aspx">
+                        <a href="/Trustin_3Final/Usuario/pruebaspersonalidad.aspx">
                             <span class="las la-clipboard-check"></span>
                             <small>Test de personalidad</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/perfil.aspx">
+                        <a href="/Trustin_3Final/Usuario/perfil.aspx">
                             <span class="las la-user"></span>
                             <small>Perfil</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/historialActividades.aspx">
+                        <a href="/Trustin_3Final/Usuario/historialActividades.aspx">
                             <span class="las la-history"></span>
                             <small>Historial de Actividades</small>
                         </a>
@@ -126,12 +126,12 @@
 
                     <div class="notify-icon">
                         <span class="las la-envelope"></span>
-                        <span class="notify"><a style="color: white" href="/Trustin_3F/Usuario/Notificaciones.aspx">4</a></span>
+                        <span class="notify"><a style="color: white" href="/Trustin_3Final/Usuario/Notificaciones.aspx">4</a></span>
                     </div>
 
                     <div class="notify-icon">
                         <span class="las la-bell"></span>
-                        <span class="notify"><a style="color: white" href="/Trustin_3F/Usuario/Notificaciones.aspx">3</a></span>
+                        <span class="notify"><a style="color: white" href="/Trustin_3Final/Usuario/Notificaciones.aspx">3</a></span>
                     </div>
 
 
@@ -185,10 +185,10 @@
                 <button id="btnRegreso" style="border:none;background-color:white"><i class="fas fa-rotate-left" onclick="btnRegreso"></i> </button>
             </div>--%>
                                 <div>
-                                    <a class="no" id="btnNomegusta" href="/Trustin_3F/Usuario/cliquearMegusta.aspx" style="border: none"><i class="fas fa-times"></i></a>
+                                    <a class="no" id="btnNomegusta" href="/Trustin_3Final/Usuario/cliquearMegusta.aspx" style="border: none"><i class="fas fa-times"></i></a>
                                 </div>
                                 <div>
-                                    <a class="heart" id="BtnMegusta" href="/Trustin_3F/Usuario/cliquearMegusta.aspx" style="border: none">
+                                    <a class="heart" id="BtnMegusta" href="/Trustin_3Final/Usuario/cliquearMegusta.aspx" style="border: none">
                                         <i class="fas fa-heart"></i>
                                     </a>
                                 </div>

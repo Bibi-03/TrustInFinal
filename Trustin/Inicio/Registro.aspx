@@ -5,12 +5,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Registro</title>
-     <link rel="stylesheet" href="../Style/Inicio.css"/>
-     <link rel="stylesheet" href="../Style/Registro.css"/>
+     <link rel="stylesheet" href="/Trustin_3Final/Style/Inicio.css"/>
+     <link rel="stylesheet" href="/Trustin_3Final/Style/Registro.css"/>
 
-    <link rel="icon" type="image/png" href="../ContentNathalia/images/LOGO-COLOR.png" />
+    <link rel="icon" type="image/png" href="/Trustin_3Final/ContentNathalia/images/LOGO-COLOR.png" />
     <link rel="" href="Seleccion.js"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
@@ -22,8 +22,8 @@
     <nav class="main-nav">
        <ul id="main-menu" class="main-menu">
             <li class="main-menu_item">
-                <a href="Inicio.aspx" class="main-menu-link">
-                    <img src="../Imagenes/logoBlanco.png"/ style="height:60px; width:80px; padding:3px; padding-left:10px">
+                <a href="/Trustin_3Final/Inicio/Inicio.aspx" class="main-menu-link">
+                    <img src="/Trustin_3Final/Imagenes/logoBlanco.png"/ style="height:60px; width:80px; padding:3px; padding-left:10px">
                 </a>
             </li>
            </ul>
@@ -39,7 +39,7 @@
         <ul id="main-menu" class="main-menu">
             
             <li class="main-menu_item">
-                <a href="InicioSesion.aspx" class="main-menu-link">Conéctate</a>
+                <a href="/Trustin_3Final/Inicio/InicioSesion.aspx" class="main-menu-link">Conéctate</a>
             </li>
             <li class="main-menu-item">
                 <a href="#" class="main-menu-link">Registrarse</a>
@@ -51,7 +51,7 @@
     <div style="justify-content:center; align-items:center; display:flex; flex-direction: column; padding-bottom:100px">
         
       <%--  <div style="justify-content:center; align-items:center; display: flex; flex-direction:column">
-            <img src="../Imagenes/LogoColor.png"/ style="height:190px; width:230px; padding:10px">
+            <img src="/Trustin_3Final/Imagenes/LogoColor.png"/ style="height:190px; width:230px; padding:10px">
         </div>--%>
         <div class="container" style="padding:40px">
      

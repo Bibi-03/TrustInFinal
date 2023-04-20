@@ -6,9 +6,9 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" />
-    <link rel="stylesheet" href="/Trustin_3F/Style/Admin.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/Style/Admin.css" />
     <link rel="" href="probemos.js" />
-    <link rel="icon" type="image/png" href="../ContentNathalia/images/LOGO-COLOR.png" />
+    <link rel="icon" type="image/png" href="Trustin_3FinalContentNathalia/images/LOGO-COLOR.png" />
     <script src="https://kit.fontawesome.com/38eefa0f78.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
     <title>Configuracion General</title>
@@ -30,50 +30,50 @@
                 <div class="side-menu">
                     <ul>
                         <li>
-                            <a href="/Trustin_3F/Admin/Admin_Dashboard.aspx" >
+                            <a href="/Trustin_3Final/Admin/Admin_Dashboard.aspx" >
                                 <span class="las la-home"></span>
                                 <small>Dashboard</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Admin/Admin_Config.aspx" class="active">
+                            <a href="/Trustin_3Final/Admin/Admin_Config.aspx" class="active">
                                 <span class="las la-user-cog"></span>
                                 <small>Configuración Global</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Admin/Admin_Agregar_Usuario.aspx">
+                            <a href="/Trustin_3Final/Admin/Admin_Agregar_Usuario.aspx">
                                 <span class="las la-user-plus"></span>
                                 <small>Agregar Usuario</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Admin/Admin_Agregar_Rol.aspx">
+                            <a href="/Trustin_3Final/Admin/Admin_Agregar_Rol.aspx">
                                 <span class="las la-plus-circle"></span>
                                 <small>Agregar Rol</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Admin/Admin_AdminRoles.aspx">
+                            <a href="/Trustin_3Final/Admin/Admin_AdminRoles.aspx">
                                 <span class="las la-plus-circle"></span>
                                 <small>Administrar Roles</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Admin/gestorPerfiles.aspx">
+                            <a href="/Trustin_3Final/Admin/gestorPerfiles.aspx">
                                 <span class="las la-id-card-alt"></span>
                                 <small>Gestor de Perfiles</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Admin/intereses.aspx">
+                            <a href="/Trustin_3Final/Admin/intereses.aspx">
                                 <span class="fa-solid fa-wand-sparkles"></span>
                                 <small>Intereses</small>
                             </a>
                         </li>
 
                         <li>
-                            <a href="/Trustin_3F/Admin/ModuloEmparejamiento.aspx">
+                            <a href="/Trustin_3Final/Admin/ModuloEmparejamiento.aspx">
                                 <span class="fas fa-handshake"></span>
                                 <small>Módulo de emparejamiento</small>
                             </a>
@@ -98,13 +98,13 @@
 
                         <div class="notify-icon">
                             <span class="las la-envelope"></span>
-                            <span class="notify"><a style="color: white" href="/Trustin_3F/Admin/
+                            <span class="notify"><a style="color: white" href="/Trustin_3Final/Admin/
 Notificaciones.aspx">4</a></span>
                         </div>
 
                         <div class="notify-icon">
                             <span class="las la-bell"></span>
-                            <span class="notify"><a style="color: white" href="/Trustin_3F/Admin/
+                            <span class="notify"><a style="color: white" href="/Trustin_3Final/Admin/
 Notificaciones.aspx">3</a></span>
                         </div>
 
@@ -146,7 +146,7 @@ Notificaciones.aspx">3</a></span>
 
                         <div class="card">
                             <div class="card-head">
-                                <h2>340,230</h2>
+                                <h2>53</h2>
                                 <span class="las la-user-check"></span>
                             </div>
                             <div class="card-progress">
@@ -159,7 +159,7 @@ Notificaciones.aspx">3</a></span>
 
                         <div class="card">
                             <div class="card-head">
-                                <h2>8</h2>
+                                <h2>0</h2>
                                 <span class="las la-envelope"></span>
                             </div>
                             <div class="card-progress">
@@ -172,7 +172,7 @@ Notificaciones.aspx">3</a></span>
 
                         <div class="card">
                             <div class="card-head">
-                                <h2>107,200</h2>
+                                <h2>0</h2>
                                 <span class="las la-user-friends"></span>
                             </div>
                             <div class="card-progress">

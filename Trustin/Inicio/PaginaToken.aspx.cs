@@ -22,7 +22,7 @@ namespace Trustin.Inicio
             }
             else
             {
-                Response.Redirect("InicioSesion.aspx");
+                Response.Redirect("/Trustin_3Final/InicioSesion.aspx");
             }
 
          
@@ -44,11 +44,11 @@ namespace Trustin.Inicio
 
             if (dr.Read())
             {
-                Response.Redirect("/Usuario/Usuario_Dashboard.aspx");
+                Response.Redirect("/Trustin_3Final/Usuario/Usuario_Dashboard.aspx");
             }
             else
             {
-                Response.Redirect("/Inicio/InicioSesion.aspx");
+                Response.Redirect("/Trustin_3Final/Inicio/InicioSesion.aspx");
             }
         }
     }

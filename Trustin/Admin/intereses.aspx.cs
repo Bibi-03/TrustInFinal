@@ -23,7 +23,7 @@ namespace Trustin.Admin
             }
             else
             {
-                Response.Redirect("/Trustin_3F/InicioSesion.aspx");
+                Response.Redirect("/Trustin_3Final/InicioSesion.aspx");
             }
             string cn = "Server=tiusr25pl.cuc-carrera-ti.ac.cr\\MSSQLSERVER2019;Database=tiusr25pl_TrustIn;User Id=warayar;Password=warayar@!!!;";
             SqlConnection sqlConectar = new SqlConnection(cn);
@@ -107,7 +107,7 @@ namespace Trustin.Admin
 
         protected void btnAgregarInteres_Click(object sender, EventArgs e)
         {
-            string script = "window.open('/Trustin_3F/Admin/AgregarInteres.aspx', 'Agregar Interes', 'width=500,height=500');";
+            string script = "window.open('/Trustin_3Final/Admin/AgregarInteres.aspx', 'Agregar Interes', 'width=500,height=500');";
             ClientScript.RegisterStartupScript(this.GetType(), "OpenWindow", script, true);
         }
         public DataTable cargaDeporte(string terminoBusqueda)

@@ -36,7 +36,7 @@ namespace Trustin.Inicio
 
                 Session["usuariologueado"] = txtEmail.Text;
 
-                Response.Redirect("/Admin/Admin_Dashboard.aspx");
+                Response.Redirect("/Trustin_3Final/Admin/Admin_Dashboard.aspx");
 
             }
             else

@@ -4,17 +4,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>TrustIn</title>
-    <link rel="stylesheet" href="../Style/Inicio.css"/>
-    <link rel="icon" type="image/png" href="../ContentNathalia/images/LOGO-COLOR.png" />
+    <link rel="stylesheet" href="/Trustin_3Final/Style/Inicio.css"/>
+    <link rel="icon" type="image/png" href="/Trustin_3Final/ContentNathalia/images/LOGO-COLOR.png" />
 </head>
 <body>
      <nav class="main-nav">
        <ul id="main-menu" class="main-menu">
             <li class="main-menu_item">
-                <a href="Inicio.aspx" class="main-menu-link">
-                    <img src="../Imagenes/logoBlanco.png"/ style="height:60px; width:80px; padding:3px; padding-left:10px">
+                <a href="/Trustin_3Final/Inicio.aspx" class="main-menu-link">
+                    <img src="/Trustin_3Final/Imagenes/logoBlanco.png"/ style="height:60px; width:80px; padding:3px; padding-left:10px">
                 </a>
             </li>
            </ul>
@@ -30,10 +30,10 @@
         <ul id="main-menu" class="main-menu">
             
             <li class="main-menu_item">
-                <a href="InicioSesion.aspx" class="main-menu-link">Conéctate</a>
+                <a href="/Trustin_3Final/Inicio/InicioSesion.aspx" class="main-menu-link">Conéctate</a>
             </li>
             <li class="main-menu-item">
-                <a href="Registro.aspx" class="main-menu-link">Registrarse</a>
+                <a href="/Trustin_3Final/Inicio/Registro.aspx" class="main-menu-link">Registrarse</a>
             </li>
         </ul>
     </nav>
@@ -50,15 +50,15 @@
                 <div style="display:flex; justify-content:center; flex-wrap:wrap">
                     <div style="width:auto; background-color: rgb(255,255,255); margin:20px; padding: 20px;  display:flex; align-items: center; flex-direction:column">
                         
-                        <img src="../Imagenes/IconEstrella.jpg" alt="Imagen estrella" style="height:100px">
+                        <img src="/Trustin_3Final/Imagenes/IconEstrella.jpg" alt="Imagen estrella" style="height:100px">
                         <h5 style="font-size: 16px; font-weight: 600; color: #222; margin: 10px 0; text-align: center; padding:20px">Encuentra a los solteros más <br />comprometidos</h5>
                     </div>
                     <div style="width:auto; background-color: rgb(255,255,255); margin:20px; padding: 20px;  display:flex; align-items: center; flex-direction:column">
-                        <img src="../Imagenes/IconPerfil.jpg" alt="Imagen perfil" style="height:100px">
+                        <img src="/Trustin_3Final/Imagenes/IconPerfil.jpg" alt="Imagen perfil" style="height:100px">
                         <h5 style="font-size: 16px; font-weight: 600; color: #222; margin: 10px 0; text-align: center; padding: 20px ">Perfiles detallados, búsqueda por <br />criterios y geolocalización</h5>
                     </div>
                     <div style="width:auto; background-color: rgb(255,255,255); margin:20px; padding: 20px;  display:flex; align-items: center; flex-direction:column">
-                        <img src="../Imagenes/IconSercivioCitas.jpg" alt="Imagen servicio citas" style="height:100px">
+                        <img src="/Trustin_3Final/Imagenes/IconSercivioCitas.jpg" alt="Imagen servicio citas" style="height:100px">
                         <h5 style="font-size: 16px; font-weight: 600; color: #222; margin: 10px 0; text-align: center; padding: 20px">El servicio de citas más serio</h5>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                 Nuestros usuarios buscan crear su historia, y nosotros hacemos de todo para asegurarnos que lo consigan.
             </p>
             <div class="imagenes-inicio" <%--style="align-items:center; justify-content:center;  display:flex; width: 100vw; background: #f0f;"--%> >
-                <img src="../Imagenes/TrustInPerfiles.png" alt="Imagen TrustIn perfil"  style="height:430px; align-content:center; align-items:center; justify-content:center" >
+                <img src="/Trustin_3Final/Imagenes/TrustInPerfiles.png" alt="Imagen TrustIn perfil"  style="height:430px; align-content:center; align-items:center; justify-content:center" >
             </div>
             <div style="width: 100%;">
                 <p style="text-align: center; padding: 24px">
@@ -95,7 +95,7 @@
                         </p> 
                     </div>
                     <div style="width:auto; margin:20px; padding: 20px;  display:flex; align-items: center; flex-direction:column">
-                         <img src="../Imagenes/seguridad.jpg" alt="Imagen seguridad" style="height:240px; padding-bottom:40px; align-items:center; align-content:center; justify-content:center" />
+                         <img src="/Trustin_3Final/Imagenes/seguridad.jpg" alt="Imagen seguridad" style="height:240px; padding-bottom:40px; align-items:center; align-content:center; justify-content:center" />
                     </div>
             </div>
 

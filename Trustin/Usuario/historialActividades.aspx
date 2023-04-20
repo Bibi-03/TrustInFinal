@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>TrustIn</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="/Trustin_3F/ContentNathalia/images/LOGO-COLOR.png" />
+    <link rel="icon" type="image/png" href="/Trustin_3Final/ContentNathalia/images/LOGO-COLOR.png" />
     <link rel="stylesheet" href="../ContentNathalia/fonts/icomoon/style.css" />
 
     <link rel="stylesheet" href="../ContentNathalia/css/owl.carousel.min.css" />
@@ -18,16 +18,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/bootstrap.min.css" />
 
     <!-- Style -->
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/css/style.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/style.css" />
 
     <link rel="icon" type="image/png" href="../ContentNathalia/images/LOGO-COLOR.png" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/ba9ac94804.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="/Trustin_3F/Style/Usuario.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/Style/Usuario.css" />
     <script src="https://kit.fontawesome.com/38eefa0f78.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
@@ -43,7 +43,7 @@
     <input type="checkbox" id="menu-toggle" />
     <div class="sidebar">
         <div class="side-header">
-            <a href="/Trustin_3F/Usuario/cliquearMegusta.aspx" style="color: white; font-size: 24px">T<span>rustin</span></a>
+            <a href="/Trustin_3Final/Usuario/cliquearMegusta.aspx" style="color: white; font-size: 24px">T<span>rustin</span></a>
         </div>
         <div class="side-content">
             <div class="profile">
@@ -57,13 +57,13 @@
             <div class="side-menu">
                 <ul>
                     <li>
-                        <a href="/Trustin_3F/Usuario/Usuario_Dashboard.aspx" >
+                        <a href="/Trustin_3Final/Usuario/Usuario_Dashboard.aspx" >
                             <span class="las la-home"></span>
                             <small>Dashboard</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/Usuario_Cuenta.aspx">
+                        <a href="/Trustin_3Final/Usuario/Usuario_Cuenta.aspx">
                             <span class="las la-user-cog"></span>
                             <small>Cuenta</small>
                         </a>
@@ -75,31 +75,31 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/Geolocalizacion.aspx">
+                        <a href="/Trustin_3Final/Usuario/Geolocalizacion.aspx">
                             <span class="fa-solid fa-location-dot"></span>
                             <small>Geolocalización</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/Usuario_Mensajeria.aspx">
+                        <a href="/Trustin_3Final/Usuario/Usuario_Mensajeria.aspx">
                             <span class="fa-solid la-sms"></span>
                             <small>Mensajeria</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/pruebaspersonalidad.aspx">
+                        <a href="/Trustin_3Final/Usuario/pruebaspersonalidad.aspx">
                             <span class="las la-clipboard-check"></span>
                             <small>Test de personalidad</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/perfil.aspx">
+                        <a href="/Trustin_3Final/Usuario/perfil.aspx">
                             <span class="las la-user"></span>
                             <small>Perfil</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Usuario/historialActividades.aspx" class="active">
+                        <a href="/Trustin_3Final/Usuario/historialActividades.aspx" class="active">
                             <span class="las la-history"></span>
                             <small>Historial de Actividades</small>
                         </a>
@@ -124,12 +124,12 @@
 
                     <div class="notify-icon">
                         <span class="las la-envelope"></span>
-                        <span class="notify"><a style="color: white" href="/Trustin_3F/Usuario/Notificaciones.aspx">4</a></span>
+                        <span class="notify"><a style="color: white" href="/Trustin_3Final/Usuario/Notificaciones.aspx">4</a></span>
                     </div>
 
                     <div class="notify-icon">
                         <span class="las la-bell"></span>
-                        <span class="notify"><a style="color: white" href="/Trustin_3F/Usuario/Notificaciones.aspx">3</a></span>
+                        <span class="notify"><a style="color: white" href="/Trustin_3Final/Usuario/Notificaciones.aspx">3</a></span>
                     </div>
 
                     <div class="user">
@@ -155,17 +155,17 @@
             <br />
             <br />
             <a href="#" class="button" style="font-size: 15px; margin-top: 10px; margin-bottom: 5px;"><i class="fas fa-heart" style="margin-right: 5px"></i>Me gusta</a>
-            <a href="HiMegusta.aspx" class="button" style="font-size: 15px; margin-top: 20px; margin-bottom: 20px; background-color: #8C2641; color: white; font-size: 15px; border-radius: 10px; margin-left: 110px;"><i class="fa-sharp fa-solid fa-eye"></i>Ver</a>
+            <a href="/Trustin_3Final/Usuario/HiMegusta.aspx" class="button" style="font-size: 15px; margin-top: 20px; margin-bottom: 20px; background-color: #8C2641; color: white; font-size: 15px; border-radius: 10px; margin-left: 110px;"><i class="fa-sharp fa-solid fa-eye"></i>Ver</a>
             <hr />
             <br />
 
             <a href="#" class="button" style="font-size: 15px; margin-top: 10px; margin-bottom: 5px;"><i class="fas fa-xmark" style="margin-right: 5px"></i>No me gusta</a>
-            <a href="HiNomegusta.aspx" class="button" style="font-size: 15px; margin-top: 20px; margin-bottom: 20px; background-color: #8C2641; color: white; font-size: 15px; border-radius: 10px; margin-left: 90px;"><i class="fa-sharp fa-solid fa-eye"></i>Ver</a>
+            <a href="/Trustin_3Final/Usuario/HiNomegusta.aspx" class="button" style="font-size: 15px; margin-top: 20px; margin-bottom: 20px; background-color: #8C2641; color: white; font-size: 15px; border-radius: 10px; margin-left: 90px;"><i class="fa-sharp fa-solid fa-eye"></i>Ver</a>
 
             <hr />
             <br />
             <a href="#" class="button" style="font-size: 15px; margin-top: 10px; margin-bottom: 5px;"><i class="fas fa-kiss" style="margin-right: 5px"></i>Matches</a>
-            <a href="HiMatches.aspx" class="button" style="font-size: 15px; margin-top: 20px; margin-bottom: 20px; background-color: #8C2641; color: white; font-size: 15px; border-radius: 10px; margin-left: 115px;"><i class="fa-sharp fa-solid fa-eye"></i>Ver</a>
+            <a href="/Trustin_3Final/Usuario/HiMatches.aspx" class="button" style="font-size: 15px; margin-top: 20px; margin-bottom: 20px; background-color: #8C2641; color: white; font-size: 15px; border-radius: 10px; margin-left: 115px;"><i class="fa-sharp fa-solid fa-eye"></i>Ver</a>
 
 
         </form>

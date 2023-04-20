@@ -43,11 +43,11 @@ namespace Trustin.Inicio
                         if (showPage1 && Session["redirected"] == null)
                         {
                             Session["redirected"] = true;
-                            Response.Redirect("/Inicio/InicioSesion.aspx");
+                            Response.Redirect("/Trustin_3Final/Inicio/InicioSesion.aspx");
                         }
                         else if (!showPage1)
                         {
-                            Response.Redirect("/Usuario/SiteOfflineU.aspx");
+                            Response.Redirect("/Trustin_3Final/Usuario/SiteOfflineU.aspx");
                         }
                     }
                     catch (Exception ex) { }
@@ -123,15 +123,15 @@ namespace Trustin.Inicio
                     // Redirigir al usuario según su rol
                     if (rol == "1")
                     {
-                        Response.Redirect("/Admin/Admin_Dashboard.aspx");
+                        Response.Redirect("/Trustin_3Final/Admin/Admin_Dashboard.aspx");
                     }
                     else if (rol == "2")
                     {
-                        Response.Redirect("/Verificador/intranetVerificador.aspx");
+                        Response.Redirect("/Trustin_3Final/Verificador/intranetVerificador.aspx");
                     }
                     else if (rol == "3")
                     {
-                        Response.Redirect("/Inicio/PaginaToken.aspx");
+                        Response.Redirect("/Trustin_3Final/Inicio/PaginaToken.aspx");
                         //Response.Redirect("/Usuario/Usuario_Dashboard.aspx");
                     }
                 }

@@ -55,7 +55,7 @@ namespace Trustin.Usuario
             }
 
             // Redirect to the login page
-            Response.Redirect("../Inicio/InicioSesion.aspx");
+            Response.Redirect("/Trustin_3Final/Inicio/InicioSesion.aspx");
         }
 
         protected void btnsavelocation_Click(object sender, EventArgs e)

@@ -15,32 +15,32 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
     <link href="../ContentNathalia/toggle/fonts/icomoon/style.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="../ContentNathalia/images/LOGO-COLOR.png" />
-    <link href="/Trustin_3F/ContentNathalia/toggle/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/ContentNathalia/toggle/css/owl.carousel.min.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
 
-    <link href="/Trustin_3F/ContentNathalia/toggle/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/ContentNathalia/toggle/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Style -->
-    <link href="/Trustin_3F/ContentNathalia/toggle/css/style.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/ContentNathalia/toggle/css/style.css" rel="stylesheet" />
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/owl.carousel.min.css">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/bootstrap.min.css">
     <%-- <link href="../ContentNathalia/css/bootstrap/sidebar.css" rel="stylesheet" />--%>
     <!-- Style -->
-    <link href="/Trustin_3F/ContentNathalia/css/styleAdmin.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/ContentNathalia/css/styleAdmin.css" rel="stylesheet" />
 
 
-    <link href="/Trustin_3F/Style/Admin.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/Style/Admin.css" rel="stylesheet" />
 
 
-    <link rel="icon" type="image/png" href="/Trustin_3F/ContentNathalia/images/LOGO-COLOR.png" />
+    <link rel="icon" type="image/png" href="/Trustin_3Final/ContentNathalia/images/LOGO-COLOR.png" />
     <script src="https://kit.fontawesome.com/38eefa0f78.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
@@ -76,43 +76,43 @@
             <div class="side-menu">
                 <ul>
                     <li>
-                        <a href="/Trustin_3F/Admin/Admin_Dashboard.aspx" >
+                        <a href="/Trustin_3Final/Admin/Admin_Dashboard.aspx" >
                             <span class="las la-home"></span>
                             <small>Dashboard</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Admin/Admin_Config.aspx">
+                        <a href="/Trustin_3Final/Admin/Admin_Config.aspx">
                             <span class="las la-user-cog"></span>
                             <small>Configuración Global</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Admin/Admin_Agregar_Rol.aspx">
+                        <a href="/Trustin_3Final/Admin/Admin_Agregar_Rol.aspx">
                             <span class="las la-plus-circle"></span>
                             <small>Agregar Rol</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Admin/Admin_AdminRoles.aspx">
+                        <a href="/Trustin_3Final/Admin/Admin_AdminRoles.aspx">
                             <span class="las la-plus-circle"></span>
                             <small>Administrar Roles</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Admin/gestorPerfiles.aspx">
+                        <a href="/Trustin_3Final/Admin/gestorPerfiles.aspx">
                             <span class="las la-id-card-alt"></span>
                             <small>Gestor de Perfiles</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Admin/intereses.aspx">
+                        <a href="/Trustin_3Final/Admin/intereses.aspx">
                             <span class="fa-solid fa-wand-sparkles"></span>
                             <small>Intereses</small>
                         </a>
                     </li>
                     <li>
-                        <a href="/Trustin_3F/Admin/ModuloEmparejamiento.aspx" class="active">
+                        <a href="/Trustin_3Final/Admin/ModuloEmparejamiento.aspx" class="active">
                             <span class="fas fa-handshake"></span>
                             <small>Módulo de emparejamiento</small>
                         </a>
@@ -138,18 +138,18 @@
 
                     <div class="notify-icon">
                         <span class="las la-envelope"></span>
-                        <span class="notify"><a style="color: white" href="/Trustin_3F/Admin/Notificaciones.aspx">4</a></span>
+                        <span class="notify"><a style="color: white" href="/Trustin_3Final/Admin/Notificaciones.aspx">4</a></span>
                     </div>
 
                     <div class="notify-icon">
                         <span class="las la-bell"></span>
-                        <span class="notify"><a style="color: white" href="/Trustin_3F/Admin/Notificaciones.aspx">3</a></span>
+                        <span class="notify"><a style="color: white" href="/Trustin_3Final/Admin/Notificaciones.aspx">3</a></span>
                     </div>
 
                      <div class="user">
                         <div class="bg-img" style="background-image: url(./img/profile.jpg);"></div>
                         <span class="las la-power-off"></span>
-                        <a href="cerrars.aspx"><span>Logout</span></a>
+                        <a href="/Trustin_3Final/Admin/cerrars.aspx"><span>Logout</span></a>
                     </div>
 
                 </div>

@@ -21,7 +21,7 @@ namespace Trustin.Usuario
             }
             else
             {
-                Response.Redirect("InicioSesion.aspx");
+                Response.Redirect("/Trustin_3Final/Inicio/InicioSesion.aspx");
             }
 
             string cn = "Server=tiusr25pl.cuc-carrera-ti.ac.cr\\MSSQLSERVER2019;Database=tiusr25pl_TrustIn;User Id=warayar;Password=warayar@!!!;";
@@ -58,7 +58,7 @@ namespace Trustin.Usuario
             }
 
             // Redirect to the login page
-            Response.Redirect("../Inicio/InicioSesion.aspx");
+            Response.Redirect("/Trustin_3Final/Inicio/InicioSesion.aspx");
         }
 
         protected void btnEnviar1_Click(object sender, EventArgs e)

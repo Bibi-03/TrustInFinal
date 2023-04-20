@@ -6,9 +6,9 @@
 <head runat="server">
    <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
-	<link rel="stylesheet" href="/Style/Usuario.css" />
-     <link rel="stylesheet" href="../Style/Registro.css"/>
-     <link rel="stylesheet" href="../Style/perfiles.css"/>
+	<link rel="stylesheet" href="/Trustin_3Final/Style/Usuario.css" />
+     <link rel="stylesheet" href="/Trustin_3Final/Style/Registro.css"/>
+     <link rel="stylesheet" href="/Trustin_3Final/Style/perfiles.css"/>
     <script src="https://kit.fontawesome.com/38eefa0f78.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 	<title>Perfil</title>
@@ -29,13 +29,13 @@
 			<div class="side-menu">
 				<ul>
 					<li>
-						<a href="Usuario_Dashboard.aspx" >
+						<a href="/Trustin_3Final/Usuario/Usuario_Dashboard.aspx" >
 							<span class="las la-home"></span>
 							<small>Dashboard</small>
 						</a>
 					</li>
 					<li>
-						<a href="Usuario_Cuenta.aspx" >
+						<a href="/Trustin_3Final/Usuario/Usuario_Cuenta.aspx" >
 							<span class="las la-user-cog"></span>
 							<small>Cuenta</small>
 						</a>
@@ -53,7 +53,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="/Trustin_3Final/Usuario/historialActividades.aspx">
 							<span class="las la-history"></span>
 							<small>Historial de Actividades</small>
 						</a>
@@ -102,7 +102,7 @@
 				<small>Home / Perfil</small>
 			</div>
 			<div class="container-perfil" >
-        <img class="Image-profile" " src="../Imagenes/perfilUsuario.jpg" alt="Perfil persona" />
+        <img class="Image-profile" " src="/Trustin_3Final/Imagenes/perfilUsuario.jpg" alt="Perfil persona" />
         
         <%--<div class="perfil" style="display: flex; margin: 0 auto; flex-direction: column; align-items: center;" >
             <div style="display: flex; margin: 0 auto; flex-direction: column; align-items: center;">
@@ -392,7 +392,7 @@
                             <br />
                             TrustIn APSW 1C2023
                         </h4>
-                        <img src="../Imagenes/CUC-logo-blanco.png" alt="Imagen perfil" style="height:60px ; align-content:center; align-items:center; justify-content:center"/>
+                        <img src="/Trustin_3Final/Imagenes/CUC-logo-blanco.png" alt="Imagen perfil" style="height:60px ; align-content:center; align-items:center; justify-content:center"/>
                         
                     </div>
                 <div  style="width:auto; margin:20px; padding: 20px;  display:flex; align-items: center; flex-direction:column">

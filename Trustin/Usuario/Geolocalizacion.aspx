@@ -9,9 +9,9 @@
     <title>TrustIn</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" />
 
-    <link rel="stylesheet" href="../ContentNathalia/fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/fonts/icomoon/style.css" />
 
-    <link rel="stylesheet" href="../ContentNathalia/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/owl.carousel.min.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"></script>
@@ -19,15 +19,15 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 
-    <link href="../Style/Usuario.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/Style/Usuario.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../ContentNathalia/css/bootstrap.min.css" />
 
     <!-- Style -->
-    <link rel="stylesheet" href="../ContentNathalia/css/style.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/style.css" />
 
 
-    <link rel="icon" type="image/png" href="../ContentNathalia/images/LOGO-COLOR.png" />
+    <link rel="icon" type="image/png" href="/Trustin_3Final/ContentNathalia/images/LOGO-COLOR.png" />
     <script src="https://kit.fontawesome.com/38eefa0f78.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
@@ -64,7 +64,7 @@
 
 
             <div class="site-logo">
-              <a href="intranetUsuario.aspx" class="text-black"><span class="text-primary"/>
+              <a href="/Trustin_3Final/Usuario/intranetUsuario.aspx" class="text-black"><span class="text-primary"/>
                   <img style="width:80px;height:50px;margin-right:10px;padding-right:10px"src="../ContentNathalia/images/LOGO-COLOR.png" /></a>
             </div>
 
@@ -80,7 +80,7 @@
 
                   <li><a href="#why-us-section" class="nav-link"><i class="fas fa-message"></i>Mensajes</a></li>
 
-                  <li><a href="Notificaciones.aspx" class="nav-link"><i class="fas fa-bell"></i>Notificaciones</a></li>
+                  <li><a href="/Trustin_3Final/Usuario/Notificaciones.aspx" class="nav-link"><i class="fas fa-bell"></i>Notificaciones</a></li>
                   <li><a href="#blog-section" class="nav-link"><i class="fas fa-kiss"></i>Suspiros</a></li>
                   <li><a href="#contact-section" class="nav-link"><i class="fas fa-user"></i>Perfil</a></li>
                     <li><a href="#contact-section" class="nav-link"><i class="fa-solid fa-right-from-bracket"></i>Cerrar Sesión</a></li>
@@ -97,7 +97,7 @@
         <input type="checkbox" id="menu-toggle" />
         <div class="sidebar">
             <div class="side-header">
-                <a href="cliquearMegusta.aspx" style="color: white; font-size: 24px">T<span>rustin</span></a>
+                <a href="/Trustin_3Final/Usuario/cliquearMegusta.aspx" style="color: white; font-size: 24px">T<span>rustin</span></a>
             </div>
             <div class="side-content">
                 <div class="profile">
@@ -110,13 +110,13 @@
                 <div class="side-menu">
                     <ul>
                         <li>
-                            <a href="Usuario_Dashboard.aspx" class="active">
+                            <a href="/Trustin_3Final/Usuario/Usuario_Dashboard.aspx" >
                                 <span class="las la-home"></span>
                                 <small>Dashboard</small>
                             </a>
                         </li>
                         <li>
-                            <a href="User_Cuenta.html">
+                            <a href="/Trustin_3Final/Usuario/Usuario_Cuenta.aspx">
                                 <span class="las la-user-cog"></span>
                                 <small>Cuenta</small>
                             </a>
@@ -128,25 +128,25 @@
                             </a>
                         </li>
                         <li>
-                            <a href="Geolocalizacion.aspx">
+                            <a href="/Trustin_3Final/Usuario/Geolocalizacion.aspx" class="active">
                                 <span class="fa-solid fa-location-dot"></span>
                                 <small>Geolocalización</small>
                             </a>
                         </li>
                         <li>
-                            <a href="Usuario_Mensajeria.aspx">
+                            <a href="/Trustin_3Final/Usuario/Usuario_Mensajeria.aspx">
                                 <span class="fa-solid la-sms"></span>
                                 <small>Mensajeria</small>
                             </a>
                         </li>
                         <li>
-                            <a href="perfil.aspx">
+                            <a href="/Trustin_3Final/Usuario/perfil.aspx">
                                 <span class="las la-user"></span>
                                 <small>Perfil</small>
                             </a>
                         </li>
                         <li>
-                            <a href="historialActividades.aspx">
+                            <a href="/Trustin_3Final/Usuario/historialActividades.aspx">
                                 <span class="las la-history"></span>
                                 <small>Historial de Actividades</small>
                             </a>
@@ -171,12 +171,14 @@
 
                         <div class="notify-icon">
                             <span class="las la-envelope"></span>
-                            <span class="notify"><a style="color: white" href="Notificaciones.aspx">4</a></span>
+                            <span class="notify"><a style="color: white" href="/Trustin_3Final/Usuario/
+Notificaciones.aspx">4</a></span>
                         </div>
 
                         <div class="notify-icon">
                             <span class="las la-bell"></span>
-                            <span class="notify"><a style="color: white" href="Notificaciones.aspx">3</a></span>
+                            <span class="notify"><a style="color: white" href="/Trustin_3Final/Usuario/
+Notificaciones.aspx">3</a></span>
                         </div>
 
                         <div class="user">
@@ -199,7 +201,7 @@
             <h3 style="color: #8C2641; font-size: 22px; margin-bottom: 10px; margin-top: 20px; margin: 25px; text-align: center"><i style="margin-right: 5px"></i>Geolocalización</h3>
 
 
-            <div id="map" style="height: 200px;"></div>
+            <div id="map" style="height: 300px;"></div>
             <br />
             <br />
             <asp:TextBox ID="location" runat="server"></asp:TextBox>

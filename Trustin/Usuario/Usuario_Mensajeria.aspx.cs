@@ -24,7 +24,7 @@ namespace Trustin.Usuario
             }
             else
             {
-                Response.Redirect("InicioSesion.aspx");
+                Response.Redirect("/Trustin_3Final/Inicio/InicioSesion.aspx");
             }
             string cn = "Server=tiusr25pl.cuc-carrera-ti.ac.cr\\MSSQLSERVER2019;Database=tiusr25pl_TrustIn;User Id=warayar;Password=warayar@!!!;";
             SqlConnection sqlConectar = new SqlConnection(cn);
@@ -47,6 +47,58 @@ namespace Trustin.Usuario
             drFoto.Close();
 
             sqlConectar.Close();
+
+
+            ///////Indicador hombres
+            string connectionString = "Server=tiusr25pl.cuc-carrera-ti.ac.cr\\MSSQLSERVER2019;Database=tiusr25pl_TrustIn;User Id=warayar;Password=warayar@!!!;";
+            SqlConnection sqlConexion = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand("ContarHombres", sqlConexion);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Connection.Open();
+            cmd.Parameters.Add("@totalHombres", SqlDbType.Int).Value = 1;
+            cmd.ExecuteNonQuery();
+            cmd.Connection.Close();
+
+
+            string conexionString = "Server=tiusr25pl.cuc-carrera-ti.ac.cr\\MSSQLSERVER2019;Database=tiusr25pl_TrustIn;User Id=warayar;Password=warayar@!!!;";
+            string query = "ContarHombres";
+            int totalHombres = 0;
+
+            using (SqlConnection connection = new SqlConnection(conexionString))
+            {
+                SqlCommand command = new SqlCommand(query, connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                SqlParameter parameter = new SqlParameter("@TotalHombres", SqlDbType.Int);
+                parameter.Direction = ParameterDirection.Output;
+                command.Parameters.Add(parameter);
+
+                connection.Open();
+                command.ExecuteNonQuery();
+
+                totalHombres = Convert.ToInt32(parameter.Value);
+            }
+
+            lblTotalHombrres.Text = totalHombres.ToString();
+
+
+
+
+
+            ///////Indicador mujeres
+            string Stringconnection = "Server=tiusr25pl.cuc-carrera-ti.ac.cr\\MSSQLSERVER2019;Database=tiusr25pl_TrustIn;User Id=warayar;Password=warayar@!!!;";
+            SqlConnection sqlSConexion = new SqlConnection(Stringconnection);
+            SqlCommand cmdcommand = new SqlCommand("ContarMujeres", sqlSConexion);
+            cmdcommand.CommandType = CommandType.StoredProcedure;
+            cmdcommand.Connection.Open();
+            cmdcommand.Parameters.Add("@totalMujeres", SqlDbType.Int).Value = 2;
+            cmdcommand.ExecuteNonQuery();
+            cmdcommand.Connection.Close();
+
+
+            string Stringconexion = "Server=tiusr25pl.cuc-carrera-ti.ac.cr\\MSSQLSERVER2019;Database=tiusr25pl_TrustIn;User Id=warayar;Password=warayar@!!!;";
+            string queryM = "ContarMujeres";
+            int totalMujeres = 0;
         }
         
         protected void brnadd_Click(object sender, EventArgs e)
@@ -77,7 +129,7 @@ namespace Trustin.Usuario
             }
 
             // Redirect to the login page
-            Response.Redirect("../Inicio/InicioSesion.aspx");
+            Response.Redirect("/Trustin_3Final/Inicio/InicioSesion.aspx");
         }
         /*
 protected void btnbuscar_Click(object sender, EventArgs e)

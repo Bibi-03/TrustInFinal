@@ -9,22 +9,22 @@
     <title>TrustIn</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" />
 
-    <link rel="stylesheet" href="../ContentNathalia/fonts/icomoon/style.css" />
-    <link rel="stylesheet" href="../ContentNathalia/fonts/icomoon/style.css" />
-    <link rel="icon" type="image/png" href="/Trustin_3F/ContentNathalia/images/LOGO-COLOR.png" />
-    <link rel="stylesheet" href="../ContentNathalia/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/fonts/icomoon/style.css" />
+    <link rel="icon" type="image/png" href="/Trustin_3Final/ContentNathalia/images/LOGO-COLOR.png" />
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/owl.carousel.min.css" />
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/Trustin_3F/ContentNathalia/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/ContentNathalia/css/bootstrap.min.css" />
     <%--<link href="../ContentNathalia/css/bootstrap/sidebar.css" rel="stylesheet" />--%>
     <!-- Style -->
-    <link href="/Trustin_3F/ContentNathalia/css/styleAdmin.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/ContentNathalia/css/styleAdmin.css" rel="stylesheet" />
 
 
 
-    <link href="/Trustin_3F/Style/Admin.css" rel="stylesheet" />
+    <link href="/Trustin_3Final/Style/Admin.css" rel="stylesheet" />
 
 
     <link rel="icon" type="image/png" href="../ContentNathalia/images/LOGO-COLOR.png" />

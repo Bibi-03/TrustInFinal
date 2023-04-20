@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" />
-    <link rel="stylesheet" href="/Trustin_3F/Style/Admin.css" />
+    <link rel="stylesheet" href="/Trustin_3Final/Style/Admin.css" />
     <link rel="" href="probemos.js" />
     <script src="https://kit.fontawesome.com/38eefa0f78.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
@@ -20,7 +20,7 @@
         <input type="checkbox" id="menu-toggle" />
         <div class="sidebar">
             <div class="side-header">
-                <a href="/Trustin_3F/Usuario/cliquearMegusta.aspx" style="color: white; font-size: 24px">T<span>rustin</span></a>
+                <a href="/Trustin_3Final/Usuario/cliquearMegusta.aspx" style="color: white; font-size: 24px">T<span>rustin</span></a>
             </div>
             <div class="side-content">
                 <div class="profile">
@@ -34,13 +34,13 @@
                 <div class="side-menu">
                     <ul>
                         <li>
-                            <a href="/Trustin_3F/Usuario/Usuario_Dashboard.aspx" class="active">
+                            <a href="/Trustin_3Final/Usuario/Usuario_Dashboard.aspx" class="active">
                                 <span class="las la-home"></span>
                                 <small>Dashboard</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Usuario/Usuario_Cuenta.aspx">
+                            <a href="/Trustin_3Final/Usuario/Usuario_Cuenta.aspx">
                                 <span class="las la-user-cog"></span>
                                 <small>Cuenta</small>
                             </a>
@@ -52,31 +52,31 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Usuario/Geolocalizacion.aspx">
+                            <a href="/Trustin_3Final/Usuario/Geolocalizacion.aspx">
                                 <span class="fa-solid fa-location-dot"></span>
                                 <small>Geolocalización</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Usuario/Usuario_Mensajeria.aspx">
+                            <a href="/Trustin_3Final/Usuario/Usuario_Mensajeria.aspx">
                                 <span class="fa-solid la-sms"></span>
                                 <small>Mensajeria</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Usuario/pruebaspersonalidad.aspx">
+                            <a href="/Trustin_3Final/Usuario/pruebaspersonalidad.aspx">
                                 <span class="las la-clipboard-check"></span>
                                 <small>Test de personalidad</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Usuario/perfil.aspx">
+                            <a href="/Trustin_3Final/Usuario/perfil.aspx">
                                 <span class="las la-user"></span>
                                 <small>Perfil</small>
                             </a>
                         </li>
                         <li>
-                            <a href="/Trustin_3F/Usuario/historialActividades.aspx">
+                            <a href="/Trustin_3Final/Usuario/historialActividades.aspx">
                                 <span class="las la-history"></span>
                                 <small>Historial de Actividades</small>
                             </a>
@@ -101,12 +101,12 @@
 
                         <div class="notify-icon">
                             <span class="las la-envelope"></span>
-                            <span class="notify"><a style="color: white" href="/Trustin_3F/Usuario/Notificaciones.aspx">4</a></span>
+                            <span class="notify"><a style="color: white" href="/Trustin_3Final/Usuario/Notificaciones.aspx">4</a></span>
                         </div>
 
                         <div class="notify-icon">
                             <span class="las la-bell"></span>
-                            <span class="notify"><a style="color: white" href="/Trustin_3F/Usuario/Notificaciones.aspx">3</a></span>
+                            <span class="notify"><a style="color: white" href="/Trustin_3Final/Usuario/Notificaciones.aspx">3</a></span>
                         </div>
 
                         <div class="user">
@@ -184,7 +184,7 @@
                                 <span class="las la-user-friends"></span>
                             </div>
                             <div class="card-progress">
-                                <small>Nuevos perfiles</small>
+                                <small>Total Hombres</small>
                                 <div class="card-indicator">
                                     <div class="indicator"></div>
                                 </div>
